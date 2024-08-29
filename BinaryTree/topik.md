@@ -6,11 +6,14 @@
 
 В двоичном дереве поиска есть четкое понятие <b>родитель</b> и <b>потомок</b>
 
+```python
       4
     /   \
    2     6
   / \    / \
  1   3 5   7
+```
+
 
 
 ![текст](https://kvodo.ru/wp-content/uploads/2017/11/Dvoichnoe-derevo-poiska.png)

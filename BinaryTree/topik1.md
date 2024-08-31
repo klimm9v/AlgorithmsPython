@@ -29,7 +29,7 @@ class TreeNode():
     self.right = None
 ```
 
-Построим дерево которое изображено на рисунке 
+Построим дерево которое изображено на рисунке  
 ![](https://pythonist.ru/wp-content/uploads/2021/03/tree.gif)
 
 ```python

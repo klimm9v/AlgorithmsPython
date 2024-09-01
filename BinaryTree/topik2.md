@@ -33,3 +33,15 @@ def pre_order(node):
         pre_order(node.left)
         pre_order(node.right)
 ```
+
+# Post-Order (обратный обход)
+
+Вместо посещения родительского узла, и обхода детей, мы сначала посетим детей и затем дойдем до родительского узла.
+
+```python
+def pre_order(node):
+    if node:
+        pre_order(node.left)
+        pre_order(node.right)
+        print(node.value)
+```

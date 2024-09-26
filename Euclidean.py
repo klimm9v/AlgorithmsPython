@@ -1,10 +1,10 @@
 def Euclidean_algorithm(a: int, b: int) -> int:
-    min_num = min(a, b)
-    max_num = max(a, b)
-    while min_num > 0:
-        max_num += max_num % min_num
-        
+    while a != 0 and b != 0:
+        if a > b:
+            a %= b
+        else:
+            b %= a
     
-    return a
+    return a + b
 
-print(Euclidean_algorithm(18, 24))
+print(Euclidean_algorithm(2, 3))
